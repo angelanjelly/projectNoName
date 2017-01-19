@@ -1,0 +1,4 @@
+"use strict";
+
+var hello = "hello";
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1vZHVsZS5qcyJdLCJuYW1lcyI6WyJoZWxsbyJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFBQSxRQUFBLE9BQUEiLCJmaWxlIjoiYnVuZGxlLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIGhlbGxvID0gXCJoZWxsb1wiOyJdfQ==
