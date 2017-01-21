@@ -5,7 +5,7 @@ app.config(function ($stateProvider) {
     });
 });
 
-app.controller('MainController', function($state, $scope, $log, $window, $timeout, MapFactory) {
-
+app.controller('MainController', function($state, $scope, $log, $window, $timeout, ImageFactory) {
+	$scope.submit = ImageFactory.submit;
 });
 

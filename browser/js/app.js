@@ -12,6 +12,10 @@ app.config(function ($urlRouterProvider, $locationProvider) {
     });
 });
 
+app.config(['$qProvider', function ($qProvider) {
+    $qProvider.errorOnUnhandledRejections(false);
+}]);
+
 // This app.run is for listening to errors broadcasted by ui-router, usually originating from resolves
 app.run(function ($rootScope) {
     $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, thrownError) {

@@ -1,3 +1,15 @@
 <section id="home">
-	<h2>This app does not have a name yet!</h2>
+    <h3>Add an image URL here</h3>
+    <div ng-controller="MainController">
+        <form class="image-form">
+            <label>Title:
+                <input type="text" ng-model="image.title">
+            </label>
+            <br />
+            <label>Image URL:
+                <input type="text" ng-model="image.url"> 
+            </label>
+                <input type="submit" ng-click="submit(image)" name="Save">
+        </form>
+    </div>
 </section>
